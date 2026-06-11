@@ -479,8 +479,158 @@ color: black;
 	</div>
 </div>
 
+<style>
+.footer-disclaimer {
+    background: #0c5662;
+    padding: 40px 20px;
+    /* color: #2c3c5a; */
+}
+
+/* Container */
+.container-box {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* GRID CARDS */
+.project-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.info-card {
+    background: rgba(255,255,255,0.05);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-3px);
+    border-color: #c9a646;
+}
+
+.info-card strong {
+    display: block;
+    font-size: 13px;
+    color: #c9a646;
+    margin-bottom: 5px;
+}
+
+.info-card p {
+    font-size: 14px;
+    color: #fff;
+}
+
+/* LIST */
+.info-list {
+    margin: 20px 0;
+    padding-left: 0;
+}
+
+.info-list li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* DISCLAIMER */
+.disclaimer-text {
+    font-size: 11px;
+    color: #9ca3af;
+    line-height: 1.8;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* LINKS */
+.footer-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+
+.footer-links a {
+    color: #6b98bd;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    color: #666;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .project-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .info-card {
+        text-align: center;
+    }
+
+    .info-list li {
+        font-size: 13px;
+    }
+}
+</style>
+<section class="footer-disclaimer">
+
+  <div class="container-box">
+
+    <!-- PROJECT INFO CARDS -->
+    <div class="project-info-grid">
+      <div class="info-card">
+        <strong>Project RERA</strong>
+        <!-- <p>MAHA RERA Project Registration No : P51900046567</p> -->
+		 Coming Soon
+      </div>
+
+      <div class="info-card">
+        <strong>Marketed By</strong>
+        <p>Authorised Channel Partner</p>
+      </div>
+
+      <!-- <div class="info-card">
+        <strong>Karnataka RERA</strong>
+        <p>Coming Soon</p>
+      </div> -->
+    </div>
+
+    <!-- DETAILS LIST -->
+    <ul class="info-list">
+      <li><strong>Agent RERA No:</strong> PRM/KA/RERA/1251/446/AG/171201/001619</li>
+      <li><strong>Site Address:</strong> Thane, Mumbai</li>
+      <li><strong>Corporate Office:</strong>  ART ARCADE, NO.107, 4RD FLOOR, 80 FT ROAD, KORAMANGALA 4TH BLOCK, BENGALURU , BENGALURU URBAN , KARNATAKA - 560034</li>
+    </ul>
+
+    <!-- DISCLAIMER -->
+    <p class="disclaimer-text">
+     Disclaimer: The information provided on this website is intended exclusively for informational purposes and should not be construed as an offer of services. This site is managed by a RERA authorized affiliate partner / real estate agent for multiple real estate developers / property owners. Property Finder LLP registered under Maharashtra RERA. The pricing information presented on this website is subject to alteration without advance notification, and the assurance of property availability cannot be guaranteed. The images showcased on this website are for representational purposes only and may not accurately reflect the actual properties. We may share your data with Maharashtra Real Estate Regulatory Authority (RERA) registered developers for further processing as necessary. Additionally, we may send updates and information to the mobile number or email address registered with us. All rights reserved. The content, design, and information on this website are protected by copyright and other intellectual property rights. Any unauthorized use or reproduction of the content may violate applicable laws. For accurate and up-to-date information regarding services, pricing, availability, and any other details, it is recommended to contact us directly through the provided contact information on this website. Thank you for visiting our website.
+    </p>
+
+    <!-- LINKS -->
+    <div class="footer-links">
+      <a href="./privacy.html">Disclaimer & Privacy Policy</a>
+      <span class="divider">|</span>
+      <a href="./terms.html">Terms & Condition</a>
+    </div>
+
+  </div>
+
+</section>
 <!-- contact start -->
-<div class="" id="contact" data-slide="contact" data-stellar-background-ratio="0">
+<!-- <div class="" id="contact" data-slide="contact" data-stellar-background-ratio="0">
 	<footer>
 		<div class="container-fluid text-center">
 			<div class="row">
@@ -493,7 +643,7 @@ color: black;
 			</div>
 		</div>
 	</footer>
-</div>
+</div> -->
 
 <div class="left-fix"><a href="#enquire" data-toggle="modal">Brochure</a></div>
 <div class="enquiryBtn  d-none d-md-block">
